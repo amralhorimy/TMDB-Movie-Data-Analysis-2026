@@ -55,11 +55,11 @@ Reported metrics are calculated on the held-out test set. The notebook also incl
 | Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
 |---|---:|---:|---:|---:|---:|
 | Logistic Regression | 0.7031 | 0.4549 | 0.6007 | 0.5177 | 0.6955 |
-| Decision Tree | 0.7345* | 0.4842 | 0.6498 | 0.5549 | 0.7692* |
+| Decision Tree | 0.7234 | 0.4842 | 0.6498 | 0.5549 | 0.7692 |
 | Random Forest | **0.7626** | **0.5436** | **0.6552** | **0.5942** | **0.7996** |
 | TF-IDF text-only | 0.6234 | 0.3600 | 0.5394 | 0.4318 | 0.6401 |
 
-`*` Decision Tree values shown here are taken from the classification report / notebook outputs where available; consult the detailed CSV and notebook for the exact metric table used in a given run.
+Decision Tree metrics are taken from the committed `model_metrics_detailed.csv` benchmark output.
 
 ## 6. Random Forest tuning
 
