@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" role="img" aria-labelledby="title desc">
+<title id="title">Random Forest before and after hyperparameter tuning</title><desc id="desc">Comparison of six test metrics before and after tuning, showing small gains in accuracy, precision, ROC-AUC and average precision, with lower recall and F1.</desc>
+<rect width="1100" height="560" rx="22" fill="#101827"/>
+<text x="54" y="62" fill="#f8fafc" font-family="Arial,sans-serif" font-size="30" font-weight="700">Random Forest · tuning trade-offs</text>
+<text x="54" y="96" fill="#a8b4c7" font-family="Arial,sans-serif" font-size="16">Test metrics before vs. after hyperparameter tuning</text>
+<g font-family="Arial,sans-serif" font-size="16" fill="#cbd5e1">
+<text x="54" y="165">Accuracy</text><text x="54" y="230">Precision</text><text x="54" y="295">Recall</text><text x="54" y="360">F1</text><text x="54" y="425">ROC-AUC</text><text x="54" y="490">Average Precision</text>
+</g>
+<g fill="#243247">
+<rect x="245" y="144" width="610" height="14" rx="7"/><rect x="245" y="209" width="610" height="14" rx="7"/><rect x="245" y="274" width="610" height="14" rx="7"/><rect x="245" y="339" width="610" height="14" rx="7"/><rect x="245" y="404" width="610" height="14" rx="7"/><rect x="245" y="469" width="610" height="14" rx="7"/>
+</g>
+<g fill="#38bdf8">
+<rect x="245" y="144" width="465.16" height="14" rx="7"/><rect x="245" y="209" width="331.58" height="14" rx="7"/><rect x="245" y="274" width="399.68" height="14" rx="7"/><rect x="245" y="339" width="362.46" height="14" rx="7"/><rect x="245" y="404" width="487.78" height="14" rx="7"/><rect x="245" y="469" width="373.96" height="14" rx="7"/>
+</g>
+<g fill="#a78bfa">
+<rect x="245" y="162" width="466.26" height="14" rx="7"/><rect x="245" y="227" width="335.11" height="14" rx="7"/><rect x="245" y="292" width="384.07" height="14" rx="7"/><rect x="245" y="357" width="357.92" height="14" rx="7"/><rect x="245" y="422" width="489.63" height="14" rx="7"/><rect x="245" y="487" width="377.09" height="14" rx="7"/>
+</g>
+<g font-family="Arial,sans-serif" font-size="14" fill="#f8fafc">
+<text x="870" y="157">0.7626</text><text x="870" y="175">0.7647</text>
+<text x="870" y="222">0.5436</text><text x="870" y="240">0.5494</text>
+<text x="870" y="287">0.6552</text><text x="870" y="305">0.6296</text>
+<text x="870" y="352">0.5942</text><text x="870" y="370">0.5868</text>
+<text x="870" y="417">0.7996</text><text x="870" y="435">0.8027</text>
+<text x="870" y="482">0.6114</text><text x="870" y="500">0.6167</text>
+</g>
+<rect x="245" y="526" width="13" height="13" rx="3" fill="#38bdf8"/><text x="266" y="538" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="13">Before tuning</text>
+<rect x="395" y="526" width="13" height="13" rx="3" fill="#a78bfa"/><text x="416" y="538" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="13">After tuning</text>
+</svg>
