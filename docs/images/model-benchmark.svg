@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" role="img" aria-labelledby="title desc">
+<title id="title">Model benchmark: ROC-AUC and F1</title><desc id="desc">Random Forest, Decision Tree, Logistic Regression and Dummy classifier evaluated on the same held-out test set.</desc>
+<rect width="1100" height="560" rx="22" fill="#101827"/>
+<text x="54" y="62" fill="#f8fafc" font-family="Arial,sans-serif" font-size="30" font-weight="700">Classification benchmark</text>
+<text x="54" y="96" fill="#a8b4c7" font-family="Arial,sans-serif" font-size="16">Held-out test set · 5,597 movies · 80/20 stratified split</text>
+<text x="54" y="157" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="18" font-weight="700">ROC-AUC</text>
+<text x="570" y="157" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="18" font-weight="700">F1 score</text>
+<g font-family="Arial,sans-serif" font-size="15" fill="#cbd5e1">
+<text x="54" y="212">Random Forest</text><text x="54" y="287">Decision Tree</text><text x="54" y="362">Logistic Regression</text><text x="54" y="437">Dummy</text>
+<text x="570" y="212">Random Forest</text><text x="570" y="287">Decision Tree</text><text x="570" y="362">Logistic Regression</text><text x="570" y="437">Dummy</text>
+</g>
+<g fill="#243247"><rect x="54" y="225" width="430" height="18" rx="9"/><rect x="54" y="300" width="430" height="18" rx="9"/><rect x="54" y="375" width="430" height="18" rx="9"/><rect x="54" y="450" width="430" height="18" rx="9"/><rect x="570" y="225" width="430" height="18" rx="9"/><rect x="570" y="300" width="430" height="18" rx="9"/><rect x="570" y="375" width="430" height="18" rx="9"/><rect x="570" y="450" width="430" height="18" rx="9"/></g>
+<g fill="#38bdf8"><rect x="54" y="225" width="343.84" height="18" rx="9"/><rect x="54" y="300" width="330.73" height="18" rx="9"/><rect x="54" y="375" width="299.08" height="18" rx="9"/><rect x="54" y="450" width="215" height="18" rx="9"/></g>
+<g fill="#a78bfa"><rect x="570" y="225" width="255.50" height="18" rx="9"/><rect x="570" y="300" width="238.61" height="18" rx="9"/><rect x="570" y="375" width="222.61" height="18" rx="9"/><rect x="570" y="450" width="0" height="18" rx="9"/></g>
+<g font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#f8fafc">
+<text x="495" y="240">0.7996</text><text x="495" y="315">0.7692</text><text x="495" y="390">0.6955</text><text x="495" y="465">0.5000</text>
+<text x="1015" y="240">0.5942</text><text x="1015" y="315">0.5549</text><text x="1015" y="390">0.5177</text><text x="1015" y="465">0.0000</text>
+</g>
+<text x="54" y="520" fill="#94a3b8" font-family="Arial,sans-serif" font-size="13">Source: model_metrics_detailed.csv · Values are test-set metrics from the committed benchmark output.</text>
+</svg>
