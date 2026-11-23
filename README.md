@@ -62,6 +62,18 @@ The modeling task defines a *high-rated movie* as a title with `vote_average >= 
 
 The Random Forest achieved the strongest untuned results among the compared models on this split.
 
+### Visual benchmark
+
+![Model benchmark comparing ROC-AUC and F1](docs/images/model-benchmark.svg)
+
+The Random Forest leads the tested models on both ROC-AUC and F1 in the recorded benchmark. The Dummy classifier is included as a majority-class baseline; its zero positive-class recall makes accuracy alone misleading.
+
+### Hyperparameter tuning visualized
+
+![Random Forest metrics before and after tuning](docs/images/random-forest-tuning.svg)
+
+The tuning search produced a trade-off: ROC-AUC and Average Precision improved slightly, while Recall and F1 declined. Choose the model and decision threshold according to the intended error trade-off.
+
 ### Hyperparameter-tuning comparison
 
 | Metric | Before tuning | After tuning |
